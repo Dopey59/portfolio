@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import { items } from "../public/Items.json";
+import { items } from "../../../public/Items.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

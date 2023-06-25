@@ -1,10 +1,10 @@
 "use client"
-import HeroSection from '/home/elil-wac-012/Documents/W-WEB-502-LIL-2-1-Portfolio-william.penet/portfolio/app/src/components/HeroSection'
+import HeroSection from './src/components/HeroSection'
 import Alternance from './src/components/alternance'
-import SchoolProjects from '/home/elil-wac-012/Documents/W-WEB-502-LIL-2-1-Portfolio-william.penet/portfolio/app/src/components/SchoolProjects'
-import Skills from '/home/elil-wac-012/Documents/W-WEB-502-LIL-2-1-Portfolio-william.penet/portfolio/app/src/components/Skills'
-import About from '/home/elil-wac-012/Documents/W-WEB-502-LIL-2-1-Portfolio-william.penet/portfolio/app/src/components/About'
-import ResponsiveCarousel from "/home/elil-wac-012/Documents/W-WEB-502-LIL-2-1-Portfolio-william.penet/portfolio/carousels/Responsive"
+import SchoolProjects from './src/components/SchoolProjects'
+import Skills from './src/components/Skills'
+import About from './src/components/About'
+import ResponsiveCarousel from "./src/components/Responsive.js"
 import Contact from "./src/components/TitleContact";
 import Form from "./src/FormContact";
 
