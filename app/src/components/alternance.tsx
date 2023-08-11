@@ -18,7 +18,7 @@ export default function Alternance() {
             et de les mettre en pratique au sein d&apos;une équipe dynamique.
             <br /><br />
             Mon alternance se déroulera sur une durée de 14 mois,
-            accompagnée d&apos;un rythme d&apos;1 semaine à l&apos;école et 4 semaines en entreprise. Le but de ma formation étant d&apos;être full stack, j&apos;avoue avoir un
+            accompagnée d&apos;un rythme d&apos;1 semaine à l&apos;école et 3 semaines en entreprise. Le but de ma formation étant d&apos;être full stack, j&apos;avoue avoir un
             goût plus prononcé pour le design et les interfaces graphiques, ce qui pourrait compter comme une spécialité en front.
           </p>
         </div>
