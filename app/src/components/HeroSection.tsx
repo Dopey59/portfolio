@@ -15,7 +15,7 @@ const HeroSection = () => {
           </div>
           <div className='sm:flex flex-col gap-3 py-6'>
             <h1 className=''>Disponibilité : Dès maintenant <FontAwesomeIcon icon={faCircleCheck} style={{ color: '#3067d5' }} fade size="xl" /></h1>
-            <p className=''>&quot;Un Framework pour les gouverner tous.&quot;</p>
+            <p className=''>"Un Framework pour les gouverner tous."</p>
 
           </div>
         </div>
