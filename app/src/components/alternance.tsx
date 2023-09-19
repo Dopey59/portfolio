@@ -13,7 +13,7 @@ export default function Alternance() {
     
     <main id="alternance" className="overflow-x-hidden">
       <div className='flex items-center gap-3 justify-center sm:justify-start mx-4'>
-        <h1 className="text-3xl">L&apos;alternance</h1>
+        <title className="text-3xl">L&apos;alternance</title>
         <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
       </div>
       <Fade duration={1500}>

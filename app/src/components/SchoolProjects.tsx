@@ -14,7 +14,7 @@ export default function SchoolProjects(){
         <>
             <main id="school" className="">
                 <div className=' title flex justify-center items-center sm:justify-start gap-2'>
-                    <a className="text-3xl mx-4">Projets scolaire</a>
+                    <title className="text-3xl mx-4">Projets scolaire</title>
                     <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
                 </div>
 
