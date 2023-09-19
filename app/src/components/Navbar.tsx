@@ -15,10 +15,6 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "home",
   },
   {
-    label: "A propos",
-    page: "about",
-  },
-  {
     label: "Expériences",
     page: "pro",
   },
@@ -47,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className={`w-full mx-auto px-4 bg-gradient-to-r from-gray-900  to-purple-900 text-white shadow fixed top-0 z-50 
+    <header className={`w-full mx-auto px-4 bg-gradient-to-r from-black to-slate-900 text-white shadow fixed top-0 z-50 
          ${currentTheme === "dark" ? "dark:bg-stone-900 dark:border-b-stone-600 " : "" }`}>
       <div className="justify-between md:items-center md:flex">
         <div className="flex items-center justify-between py-3">
@@ -71,18 +67,18 @@ const Navbar = () => {
                   to={item.page}
                   smooth={true}
                   duration={500}
-                  className="block lg:inline-block hover:text-neutral-500"
+                  className="block lg:inline-block hover:text-orange-600"
                   onClick={() => setNavbar(false)}
                 >
                   {item.label}
                 </Link>
               ))}
               {currentTheme === "dark" ? (
-                <button onClick={() => setTheme("light")} className="bg-purple-600 p-2 rounded-xl">
+                <button onClick={() => setTheme("light")} className="bg-slate-600 p-2 rounded-xl">
                   <RiSunLine size={25} color="white" />
                 </button>
               ) : (
-                <button onClick={() => setTheme("dark")} className="bg-purple-600 p-2 rounded-xl">
+                <button onClick={() => setTheme("dark")} className="bg-slate-600 p-2 rounded-xl">
                   <RiMoonFill />
                 </button>
               )}

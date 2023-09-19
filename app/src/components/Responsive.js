@@ -8,36 +8,42 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
     export default function ResponsiveCarousel() {
       const { responsive } = items;
+      
       return (
-        <main id="pro">
-          <div className="title flex justify-center sm:justify-start mx-4">
-            <h1 className="font-bold sm:text-2xl text-xl hover:border-b-4 border-purple-500 ">Expériences Pro & Formations <FontAwesomeIcon icon={faArrowDown} size="sm" bounce /></h1>
+        <main id="pro" className="overflow-x-hidden w-screen">
+          <div className="title flex items-center gap-3 justify-center sm:justify-start mx-4">
+            <h1 className="text-3xl">Expériences Pro & Formations</h1>
+            <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
+
           </div>
           <br></br>
           <div>
             <Carousel
               showArrows={true}
+              autoPlay={true}
               infiniteLoop={true}
               dynamicHeight={false}
               showIndicators={false}
               showStatus={false}
-              className="bg-gradient-to-r from-gray-900 to-purple-900 text-white shadow-xl rounded-xl"
-              
+              className="bg-gradient-to-r from-black to-slate-900 text-white"
             >
               {responsive.map((item) => (
-                <div className="" key={item.id}>
-                  <div className="p-4">
-                  </div>
-                  <div className="p-12">
-                    <h2 className="font-bold text-2xl sm:text-lg ">{item.title}</h2>
+                <div className="p-8" key={item.id}>
+                  
+                  <div className="p-12 mx-auto flex flex-col text-center items-center justify-center">
+                    <h2 className="font-bold text-3xl ">{item.title}</h2>
                     <h2 className="text-lg">{item.date}</h2>
 
                     <br></br>
-                    <p className="text-lg font-bold sm:text-xl">{item.text}</p>
-                    <br></br><br></br>
-                    <p className="text-sm sm:text-xl">{item.Description}</p>
-                    <br></br><br></br>
-                    <p className="text-sm sm:text-xl font-bold">{item.Compétences}</p>
+                    <div>
+                      <p className="text-lg font-bold sm:text-xl">{item.text}</p>
+                      <br></br><br></br>
+                      <div className="mx-auto text-center">
+                        <p id="Description" className="text-sm  sm:text-xl">{item.Description}</p>
+                      </div>
+                      <br></br><br></br>
+                      <p className="text-sm sm:text-xl font-bold">{item.Compétences}</p>
+                    </div>
 
 
                   </div>

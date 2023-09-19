@@ -1,10 +1,21 @@
 import React from "react";
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
+import { Fade } from "react-awesome-reveal";
+
+
 export default function Alternance() {
   return (
+<<<<<<< HEAD
+    <>
+    
+    <main id="alternance" className="overflow-x-hidden">
+      <div className='flex items-center gap-3 justify-center sm:justify-start mx-4'>
+        <h1 className="text-3xl">L&apos;alternance</h1>
+        <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
+=======
     <main id="alternance" className="flex flex-col">
       <div className='title flex justify-center sm:justify-start mx-4'>
         <h1 className="font-bold text-2xl">L&apos;alternance <FontAwesomeIcon icon={faArrowDown} size="sm" bounce /></h1>
@@ -22,7 +33,44 @@ export default function Alternance() {
             goût plus prononcé pour le design et les interfaces graphiques, ce qui pourrait compter comme une spécialité en front.
           </p>
         </div>
+>>>>>>> 8df64bd17f1280711431883e9c0ed96e53d7b410
       </div>
+      <Fade duration={1500}>
+      <div className="">
+            <div className="mainContainer">
+
+              <div className='sm:flex sm:justify-around justify-center items-center  p-12 '>
+                <div>
+                    <img src='./time.jpg' className='shrink-0 w-80 h-auto'/>
+                </div>
+
+                <div className='flex flex-col items-center gap-4'>
+                    <h1 className='sm:text-3xl text-lg font-bold'>Rythme de l'alternance |</h1>
+                    <p className='sm:text-2xl text-sm'>Alternance 14 mois.</p>
+                    <p className='sm:text-lg text-sm text-center'>L'alternance se déroule avec 3 semaines en entreprise et 1 semaine à l'école.</p>
+                </div>
+              </div>
+
+              <div className='sm:flex sm:justify-around justify-center items-center p-12'>
+
+                <div className='flex flex-col items-center gap-4'>
+                    <h1 className='sm:text-3xl text-lg font-bold'>Front End  |</h1>
+                    <p className='sm:text-2xl text-sm text-center'>Développement-web & application mobile.</p>
+                    <p className='sm:text-lg text-sm  text-center'>Passioné par le design, je suis en quête perpetuélle d'innovation graphique & d'érgonomie pour les utilisateurs. </p>
+                </div>
+
+                <div className="py-6">
+                    <img src='./dev.jpg' className='shrink-0 w-80 rounded-full h-auto'/>
+                </div>
+              </div>
+
+              
+
+            </div>
+          </div>
+        </Fade>
+      {/* </div> */}
     </main>
+    </>
   );
 }
