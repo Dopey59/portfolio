@@ -45,7 +45,7 @@ export default function Alternance() {
                 <div className='flex flex-col items-center gap-4'>
                     <h1 className='sm:text-3xl text-lg font-bold'>Front End  |</h1>
                     <p className='sm:text-2xl text-sm text-center'>Développement-web & application mobile.</p>
-                    <p className='sm:text-lg text-sm  text-center'>Passioné par le design, je suis en quête perpetuélle d'innovation graphique & d&apos;érgonomie pour les utilisateurs. </p>
+                    <p className='sm:text-lg text-sm  text-center'>Passioné par le design, je suis en quête perpétuelle d'innovation graphique & d&apos;érgonomie pour les utilisateurs. </p>
                 </div>
 
                 <div className="py-6">

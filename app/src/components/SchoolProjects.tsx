@@ -34,17 +34,17 @@ export default function SchoolProjects(){
                             <h1 className='sm:text-3xl text-xl font-bold '>myTwitter |</h1>
                             <p className='text-xl'>#Projet Epitech</p>
                             <p className=''>
-                                Dans ce projet réalisé en groupe de 2 nous devions faire un clone du réseau social Twitter.
-                                Lorsque vous arrivez sur la page principale, vous allez être invité a vous connecter mais si
+                                Dans ce projet réalisé en groupe de 2 nous devions faire un clône du réseau social Twitter.
+                                Lorsque vous arrivez sur la page principale, vous allez être invités a vous connecter mais si
                                 vous n&apos;avez pas de compte vous pouvez cliquer sur s&apos;inscrire et créer un compte.
                                 <br /><br />
 
-                                Petite note : Si vous voulez ajouter une image a votre profil il faudra copier le lien de l&apos;image depuis le web.
+                                Petite note : Si vous voulez ajouter une image à votre profil il faudra copier le lien de l&apos;image depuis le web.
 
                                 Maintenant que vous avez un compte vous pouvez agir normalement sur le site, comme sur le vrai Twitter.
                                 <br /><b><br /></b>
                             </p>
-                            <p className="font-bold">ps: Le projet ce nomme &quot;Cuiiter&quot;, petit clin d'oeil à tous les poulets qui nous regardent!</p>
+                            <p className="font-bold">ps: Le projet se nomme &quot;Cuiiter&quot;, petit clin d'oeil à tous les poulets qui nous regardent!</p>
 
                             <div className="grid sm:grid-cols-4 items-center grid-cols-1 py-4 w-auto gap-3 sm:p-3">
                                 <div className="bg-gray-200 rounded-md p-3">
@@ -80,11 +80,11 @@ export default function SchoolProjects(){
                             <p className='text-xl'>#Projet Epitech</p>
                             <p className=' '>
                                 Ceci est le dernier projet réalisé en groupe de 2 qui marque la fin de ma première année à Epitech.
-                                Vous y trouverez un site-web entièrement créer à l&apos;aide d'une API &quot;Betaseries&quot; où
-                                les series du moment y sont répertoriés. 
+                                Vous y trouverez un site-web entièrement créé à l&apos;aide d'une API &quot;Betaseries&quot; où
+                                les series du moment y sont répertoriées. 
                                 <br /><br />
 
-                                Lorsque vous vous balader sur le site, vous pourrez y voir les détails de votre série préférée, ainsi
+                                Lorsque vous vous baladez sur le site, vous pourrez y voir les détails de votre série préférée, ainsi
                                 que chaque épisode de celle-ci. Vous pouvez également ajouter une série à regarder plus tard sur votre compte Betaseries
                                 ou même l&apos;archiver ! 
 
@@ -104,12 +104,12 @@ export default function SchoolProjects(){
                                 <div className="bg-gray-200 rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
-                                <Link className="flex items-center gap-3" href={"https://github.com/Dopey59/Previously-On/"}>
+                                <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Previously-On/"}>
                                     <div className="flex items-center justify-center w-64 bg-red-500 rounded-md gap-6 text-white
                                         hover:bg-blue-600 transition duration-0 hover:duration-500 p-3">
                                         <p>Visiter sur github</p>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
 
@@ -145,7 +145,7 @@ export default function SchoolProjects(){
                             
                             <h1 className="text-xl font-bold">Pourquoi ?</h1>
 
-                            <p>Nous sommes nombreux à vouloir dénicher les meilleurs offres pour faire le setup de ses rêves. 
+                            <p>Nous sommes nombreux à vouloir dénicher les meilleures offres pour faire le setup de nos rêves. 
                                Ici, vous n'aurez plus à chercher bien loin puisque tous les meilleurs site de gaming pour vos jeux, matériels..
                                sont répertoriés en un seul clic ! 
                             </p>
@@ -165,12 +165,12 @@ export default function SchoolProjects(){
                                 <div className="bg-gray-200 rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
-                                <Link className="flex items-center gap-3" href={"https://github.com/Dopey59/Game-N-Tech/tree/main"}>
+                                <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Game-N-Tech/tree/main"}>
                                     <div className="flex items-center justify-center w-64 bg-orange-500 rounded-md gap-6 text-white
                                         hover:bg-blue-600 transition duration-0 hover:duration-500 p-3">
                                         <p>Visiter sur github</p>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>     
