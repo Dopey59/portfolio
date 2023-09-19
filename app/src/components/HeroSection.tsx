@@ -25,7 +25,7 @@ const HeroSection = () => {
             <div className=' gap-4 w-full text-left mx-auto flex flex-col'>
               <h1 className='sm:text-xl flex text-lg text-orange-600'>Développeur web & Application mobile</h1>
               <h2 className='text-md text-left text-3xl sm:text-3xl font-semibold'>Hello, ma spécialité ? Le design & SEO</h2>
-              <p className='w-4/5'>Ma mission est de rendre une expérience unique et fluide aux utilisateurs ainsi qu'une compatibilité
+              <p className='w-4/5'>Ma mission est de rendre une expérience unique et fluide aux utilisateurs ainsi qu&apos;une compatibilité
                 web et mobile au top pour vos projets.
               </p>
             </div>

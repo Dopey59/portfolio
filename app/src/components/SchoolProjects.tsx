@@ -24,8 +24,10 @@ export default function SchoolProjects(){
                     <div className='sm:flex sm:justify-around items-center mx-4 gap-6 '>
 
                         <div className="flex flex-col gap-6">
-                            <Image alt="image twitter projet" src='./twitter2.png'
-                                 className='sm:w-auto p-2 bg-blue-400 rounded-md sm:h-auto w-full h-auto'>
+                            <Image alt="image twitter projet" src='/twitter2.png'
+                                className='sm:w-auto p-2 bg-blue-400 rounded-md sm:h-auto w-full h-auto'
+                                width={900}
+                                height={900}>
                             </Image>
                         </div>
                         <div className='flex flex-col sm:items-start sm:text-left gap-4 py-14'>
@@ -113,8 +115,10 @@ export default function SchoolProjects(){
 
 
                         <div className="flex flex-col gap-6 py-14">
-                            <Image alt="previously on Homepage" src='./prevHome.png'
-                             className='w-full h-auto sm:w-auto p-2 bg-red-400 rounded-md sm:h-auto'>
+                            <Image alt="previously on Homepage" src='/prevHome.png'
+                                className='w-full h-auto sm:w-auto p-2 bg-red-400 rounded-md sm:h-auto'
+                                width={900}
+                                height={900}>
                             </Image>
                         </div>
                     </div>     
@@ -125,8 +129,10 @@ export default function SchoolProjects(){
                     <div className='sm:flex sm:justify-around items-center mx-4 gap-6'>
 
                         <div className="flex flex-col gap-6">
-                            <Image alt="Game N Tech image" src='./Games.png' 
-                                className='sm:w-auto p-2 bg-orange-500 rounded-md sm:h-auto w-full h-auto '>
+                            <Image alt="Game N Tech image" src='/Games.png' 
+                                className='sm:w-auto p-2 bg-orange-500 rounded-md sm:h-auto w-full h-auto'
+                                width={900}
+                                height={900}>
                             </Image>
                         </div>
                         <div className='flex flex-col sm:items-start sm:text-left gap-4 py-12'>
