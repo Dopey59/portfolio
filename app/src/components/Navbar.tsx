@@ -70,7 +70,7 @@ const Navbar = () => {
                 </Link>
               ))}
               {currentTheme === "dark" ? (
-                <button onClick={() => setTheme("light")} className="bg-slate-600 p-2 rounded-xl">
+                <button onClick={() => setTheme("light")} className="bg-slate-600  p-2 rounded-xl">
                   <RiSunLine size={25} color="white" />
                 </button>
               ) : (

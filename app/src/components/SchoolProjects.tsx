@@ -47,15 +47,15 @@ export default function SchoolProjects(){
                             <p className="font-bold">ps: Le projet se nomme &quot;Cuiiter&quot;, petit clin d'oeil à tous les poulets qui nous regardent!</p>
 
                             <div className="grid sm:grid-cols-4 items-center grid-cols-1 py-4 w-auto gap-3 sm:p-3">
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">React</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">MySQL</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3 ">
+                                <div className="bg-black text-white rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
                                 <Link className="flex items-center gap-3" href={"https://github.com/Dopey59/My-Twitter"}>
@@ -93,15 +93,15 @@ export default function SchoolProjects(){
                             </p>
 
                             <div className="grid sm:grid-cols-4 items-center grid-cols-1 py-4 w-auto gap-3 sm:p-3">
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">Axios</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">React</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3 ">
+                                <div className="bg-black text-white rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
                                 <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Previously-On/"}>
@@ -154,15 +154,15 @@ export default function SchoolProjects(){
                                                 
 
                             <div className="grid sm:grid-cols-4 items-center grid-cols-1 py-4 w-auto gap-3 sm:p-3">
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">React</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3">
+                                <div className="bg-black text-white rounded-md p-3">
                                     <p className="sm:text-center">Javascript</p>
                                 </div>
 
-                                <div className="bg-gray-200 rounded-md p-3 ">
+                                <div className="bg-black text-white rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
                                 <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Game-N-Tech/tree/main"}>
