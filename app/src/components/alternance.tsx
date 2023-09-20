@@ -16,7 +16,7 @@ export default function Alternance() {
         <title className="text-3xl">L&apos;alternance</title>
         <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
       </div>
-      <Fade duration={1500}>
+      <Fade duration={2000}>
       <div className="">
             <div className="mainContainer">
 
