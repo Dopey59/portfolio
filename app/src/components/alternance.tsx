@@ -18,46 +18,46 @@ export default function Alternance() {
       </div>
       <Fade duration={2000}>
       <div className="">
-            <div className="mainContainer">
+        <div className="mainContainer">
 
-              <div className='sm:flex sm:justify-around justify-center items-center  p-12 '>
-                <div>
-                    <Image 
-                    alt="image temps"
-                    src='/time.jpg'
-                    className='shrink-0 w-80 h-auto'
-                    width={900}
-                    height={900}
-                    >
+          <div className='sm:flex sm:justify-around justify-center items-center  p-12 '>
+            <div>
+                <Image 
+                alt="image temps"
+                src='/time.jpg'
+                className='shrink-0 w-80 h-auto'
+                width={900}
+                height={900}
+                >
 
-                    </Image>
-                </div>
-
-                <div className='flex flex-col items-center gap-4'>
-                    <h1 className='sm:text-3xl text-lg font-bold'>Rythme de lalternance |</h1>
-                    <p className='sm:text-2xl text-sm'>Alternance 14 mois.</p>
-                    <p className='sm:text-lg text-sm text-center'>L&apos;alternance se déroule avec 3 semaines en entreprise et 1 semaine à l&apos;école.</p>
-                </div>
-              </div>
-
-              <div className='sm:flex sm:justify-around justify-center items-center p-12'>
-
-                <div className='flex flex-col items-center gap-4'>
-                    <h1 className='sm:text-3xl text-lg font-bold'>Front End  |</h1>
-                    <p className='sm:text-2xl text-sm text-center'>Développement-web & application mobile.</p>
-                    <p className='sm:text-lg text-sm  text-center'>Passioné par le design, je suis en quête perpétuelle d'innovation graphique & d&apos;érgonomie pour les utilisateurs. </p>
-                </div>
-
-                <div className="py-6">
-                    <Image alt="image dev exemple" 
-                      src='/dev.jpg'
-                      className='shrink-0 w-80 rounded-full h-auto'
-                      width={900}
-                      height={900}>
-                    </Image>
-                </div>
-              </div>
+                </Image>
             </div>
+
+            <div className='flex flex-col items-center gap-4'>
+                <h1 className='sm:text-3xl text-lg font-bold'>Rythme de l&apos;alternance |</h1>
+                <p className='sm:text-2xl text-sm'>Alternance 14 mois.</p>
+                <p className='sm:text-lg text-sm text-center'>L&apos;alternance se déroule avec 3 semaines en entreprise et 1 semaine à l&apos;école.</p>
+            </div>
+          </div>
+
+          <div className='sm:flex sm:justify-around justify-center items-center p-12'>
+
+            <div className='flex flex-col items-center gap-4'>
+                <h1 className='sm:text-3xl text-lg font-bold'>Front End  |</h1>
+                <p className='sm:text-2xl text-sm text-center'>Développement-web & application mobile.</p>
+                <p className='sm:text-lg text-sm  text-center'>Passioné par le design, je suis en quête perpétuelle d'innovation graphique & d&apos;érgonomie pour les utilisateurs. </p>
+            </div>
+
+            <div className="py-6">
+                <Image alt="image dev exemple" 
+                  src='/dev.jpg'
+                  className='shrink-0 w-80 rounded-full h-auto'
+                  width={900}
+                  height={900}>
+                </Image>
+            </div>
+          </div>
+        </div>
           </div>
         </Fade>
     </main>

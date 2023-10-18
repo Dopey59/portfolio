@@ -3,7 +3,7 @@ import { faArrowDown, faLightbulb, faPeopleCarry, faBookOpenReader, faUserCheck,
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-import { Zoom} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 
 export default function About() {

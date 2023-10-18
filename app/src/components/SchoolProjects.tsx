@@ -124,19 +124,19 @@ export default function SchoolProjects(){
                     </div>     
                     </Slide>
 
-                     {/* Projet Game N Tech */}           
+                     {/* Projet Shift Gaming */}           
                      <Slide>
                     <div className='sm:flex sm:justify-around items-center mx-4 gap-6'>
 
                         <div className="flex flex-col gap-6">
-                            <Image alt="Game N Tech image" src='/Games.png' 
-                                className='sm:w-auto p-2 bg-orange-500 rounded-md sm:h-auto w-full h-auto'
+                            <Image alt="Shift Gaming image" src='/shift-gaming.jpg' 
+                                className='sm:w-auto p-2 bg-rose-500 rounded-md sm:h-auto w-full h-auto'
                                 width={900}
                                 height={900}>
                             </Image>
                         </div>
                         <div className='flex flex-col sm:items-start sm:text-left gap-4 py-12'>
-                            <h1 className='sm:text-3xl text-xl font-bold '>Game N Tech |</h1>
+                            <h1 className='sm:text-3xl text-xl font-bold '>Shift Gaming |</h1>
                             <h3 className='text-xl'>#Projet Personnel</h3>
                             <p className=' '>
                                 Fier de vous présenter mon premier projet personnel, ce site-web à pour but
@@ -165,10 +165,10 @@ export default function SchoolProjects(){
                                 <div className="bg-black text-white rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
-                                <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Game-N-Tech/tree/main"}>
-                                    <div className="flex items-center justify-center w-64 bg-orange-500 rounded-md gap-6 text-white
+                                <a className="flex items-center gap-3" href={"https://www.shift-gaming.fr/"}>
+                                    <div className="flex items-center justify-center w-64 bg-rose-500 rounded-md gap-6 text-white
                                         hover:bg-blue-600 transition duration-0 hover:duration-500 p-3">
-                                        <p>Visiter sur github</p>
+                                        <p>Visiter en ligne</p>
                                     </div>
                                 </a>
                             </div>
