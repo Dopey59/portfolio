@@ -15,7 +15,6 @@ export default function SchoolProjects(){
             <main id="school" className="">
                 <div className=' title flex justify-center items-center sm:justify-start gap-2'>
                     <title className="text-3xl mx-4">Projets scolaire</title>
-                    <FontAwesomeIcon icon={faArrowDown} className="text-orange-600" size="lg" bounce />
                 </div>
 
                 {/* Projet Twitter */}           
@@ -105,7 +104,7 @@ export default function SchoolProjects(){
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
                                 <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Previously-On/"}>
-                                    <div className="flex items-center justify-center w-64 bg-red-500 rounded-md gap-6 text-white
+                                    <div className="flex items-center justify-center w-64 bg-red-600 rounded-md gap-6 text-white
                                         hover:bg-blue-600 transition duration-0 hover:duration-500 p-3">
                                         <p>Visiter sur github</p>
                                     </div>
@@ -116,7 +115,7 @@ export default function SchoolProjects(){
 
                         <div className="flex flex-col gap-6 py-14">
                             <Image alt="previously on Homepage" src='/prevHome.png'
-                                className='w-full h-auto sm:w-auto p-2 bg-red-400 rounded-md sm:h-auto'
+                                className='w-full h-auto sm:w-auto p-2 bg-red-600 rounded-md sm:h-auto'
                                 width={900}
                                 height={900}>
                             </Image>
@@ -124,6 +123,7 @@ export default function SchoolProjects(){
                     </div>     
                     </Slide>
 
+                     {/* Projet Shift Gaming */}           
                      {/* Projet Shift Gaming */}           
                      <Slide>
                     <div className='sm:flex sm:justify-around items-center mx-4 gap-6'>
@@ -165,10 +165,10 @@ export default function SchoolProjects(){
                                 <div className="bg-black text-white rounded-md p-3 ">
                                     <p className="sm:text-center ">TailwindCss</p>
                                 </div>
-                                <a className="flex items-center gap-3" href={"https://www.shift-gaming.fr/"}>
-                                    <div className="flex items-center justify-center w-64 bg-rose-500 rounded-md gap-6 text-white
+                                <a className="flex items-center gap-3" href={"https://github.com/Dopey59/Game-N-Tech/tree/main"}>
+                                    <div className="flex items-center justify-center w-64 bg-orange-500 rounded-md gap-6 text-white
                                         hover:bg-blue-600 transition duration-0 hover:duration-500 p-3">
-                                        <p>Visiter en ligne</p>
+                                        <p>Visiter sur github</p>
                                     </div>
                                 </a>
                             </div>
